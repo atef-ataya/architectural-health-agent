@@ -1,0 +1,22 @@
+{
+  "name": "architectural-health-agent",
+  "version": "1.0.0",
+  "description": "The Context Layer — Series Finale: Skills + Memory + Evaluation",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "clear-memory": "ts-node scripts/clear-memory.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "neo4j-driver": "^5.27.0",
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
